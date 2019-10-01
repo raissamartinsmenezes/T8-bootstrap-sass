@@ -31,6 +31,7 @@ Existem várias redes **CDN**, e qualquer empresa pode contratar o serviço de u
 ```
 
 ### Instalação via npm (extra!)
+
 ## Aula 1 - 07/10
 - O que é Bootstrap?
 - Como ele é funciona?
@@ -38,9 +39,16 @@ Existem várias redes **CDN**, e qualquer empresa pode contratar o serviço de u
 - Prós e contras?
 - Percorrendo a documentação
 - data-toggle e data-target
+
 ## Aula 2 - 08/10
-## Começando o nosso projeto 
-### Meu Portfólio ♡ 
+## Começando o nosso projeto - Meu Portfólio ♡ 
+1. Clone o repositório
+2. [Instale](#instalação) o Bootstrap no seu projeto
+3. Abra a [documentação](#documentação) do Bootstrap 
+4. #boracomeçar!
+
+
+
 
 
 
