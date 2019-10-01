@@ -41,18 +41,26 @@ Existem várias redes **CDN**, e qualquer empresa pode contratar o serviço de u
 - data-toggle e data-target
 
 ## Aula 2 - 08/10
-## Começando o nosso projeto - Meu Portfólio ♡ 
+### Começando o nosso projeto 
 1. Clone o repositório
 2. Entre no diretório `./meu-portfolio`
-3. [Instale](#instalação) o Bootstrap no arquivo <html> do projeto
+3. [Instale](#instalação) o Bootstrap no arquivo `<html>` do projeto
 4. Abra a [documentação](#documentação) do Bootstrap no seu navegador
 5. #boracomeçar!
 
-
-
-
-
+### Meu Portfólio ♡  
+- Quais componentes vamos construir?
+- [ ] Navbar
+- [ ] Formulário de contato
+- [ ] Carrosel de fotos
+- [ ] Seção - Quem sou
+- [ ] Seção - Habilidades
+- [ ] Cards - Meus projetos
+- [ ] Footer
 
 # Sass
 ## Aula 3 - 09/10
 ## Aula 4 - 10/10
+
+[link do layout 1](https://dribbble.com/shots/7158635-TheHub-Website-Exploration-01)
+[link do layout 2](https://dribbble.com/shots/3937735-Payment-Interaction)
