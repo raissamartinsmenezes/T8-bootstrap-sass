@@ -43,10 +43,10 @@ Existem várias redes **CDN**, e qualquer empresa pode contratar o serviço de u
 ## Aula 2 - 08/10
 ## Começando o nosso projeto - Meu Portfólio ♡ 
 1. Clone o repositório
-2. [Instale](#instalação) o Bootstrap no seu projeto
-3. Abra a [documentação](#documentação) do Bootstrap 
-4. #boracomeçar!
-
+2. Entre no diretório `./meu-portfolio`
+3. [Instale](#instalação) o Bootstrap no arquivo <html> do projeto
+4. Abra a [documentação](#documentação) do Bootstrap no seu navegador
+5. #boracomeçar!
 
 
 
