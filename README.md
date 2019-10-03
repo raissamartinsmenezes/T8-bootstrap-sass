@@ -38,7 +38,7 @@ A instalação por **CDN** é a maneira mais rápida de instalar o Bootstrap no 
 1. Faça o download do diretório zipado no endereço acima
 2. Entre em `./css` copie o arquivo de nome `bootstrap.min.css` e cole dentro da pasta `./style` do projeto
 3. Entre em `./js` copie o arquivo de nome `bootstrap.min.js` e cole dentro da pasta `./js` do projeto
-4. Vamos fazer o download do arquivo `jquery-3.4.1.min.js` no site do [jQuery](https://jquery.com/download/) na versão **minificada** [aqui](https://code.jquery.com/jquery-3.4.1.min.js) e salvá-lo dentro na pasta `./js` do projeto
+4. Vamos fazer o download do arquivo `jquery-3.4.1.min.js` no site do [jQuery](https://jquery.com/download/) na versão **"minificada"** (ou __minified__) [aqui](https://code.jquery.com/jquery-3.4.1.min.js) e salvá-lo dentro na pasta `./js` do projeto
 
 ![salvar-como-jquery](/imagens/salvar-como-jquery.jpg)
 
@@ -52,10 +52,16 @@ A instalação por **CDN** é a maneira mais rápida de instalar o Bootstrap no 
 
 O Bootstrap é um [framework](https://tableless.github.io/iniciantes/manual/js/o-que-framework.html) front-End intuitivo, para o desenvolvimento web mais rápido e eficaz. O Bootstrap foi desenvolvido por Mark Otto e Jacob Thornton no Twitter. Foi lançado como um produto de seu código aberto em agosto de 2011 no GitHub.
 
-- Como ele é funciona?
-
-
 - Prós e contras?  
+
+Prós | Contras
+--------- | ------
+Conjunto de componentes extenso | Visual Padrão
+Funcionamento | 
+Responsividade | 
+Experiência do Usuário | 
+Acessibilidade com uso de classes | 
+
 - Percorrendo a documentação
 - data-toggle e data-target
 
