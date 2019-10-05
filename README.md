@@ -124,7 +124,7 @@
 - Quais componentes vamos construir?
     - [ ] Navbar
     - [ ] Formulário de contato
-    - [ ] Carrosel de fotos
+    - [ ] Carousel de fotos
     - [ ] Seção - Quem sou
     - [ ] Seção - Habilidades
     - [ ] Cards - Meus projetos
