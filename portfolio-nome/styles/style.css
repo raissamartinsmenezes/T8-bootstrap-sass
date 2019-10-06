@@ -44,3 +44,27 @@ a:hover {
 .habilidades i {
     font-size: 2rem;
 }
+
+.btn {
+    background-color: #7E459B;
+}
+
+.btn:hover {
+    color: #DEBBDD;
+    font-weight: 500; 
+}
+
+.imagem-cards {
+    object-fit: cover;
+    object-position: 0 0;
+    max-height: 40vh;
+}
+
+/* .bg-none {
+    background-color: transparent;
+    color: black;
+} */
+
+.bg-lilac {
+    background-color: #DEBBDD;
+}
