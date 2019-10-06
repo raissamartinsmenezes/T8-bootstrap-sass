@@ -9,6 +9,8 @@
 ## Documentação 
 [Documentação do Bootstrap PT/BR](https://getbootstrap.com.br/docs/4.1/getting-started/introduction/)
 
+---
+
 ## Instalação
 ### Instalação por CDN
 - O que é CDN?
@@ -52,6 +54,8 @@
 
 ### Instalação via npm (extra!)
 
+---
+
 ## Conteúdo que vamos abordar :)
 
 - [ ] [Navbar](https://getbootstrap.com.br/docs/4.1/components/navbar/)
@@ -64,6 +68,8 @@
 - [ ] [Cards](https://getbootstrap.com.br/docs/4.1/components/card/)
 - [ ] [Grid](https://getbootstrap.com.br/docs/4.1/layout/grid/)
 - [ ] [Modal](https://getbootstrap.com.br/docs/4.1/components/carousel/)
+
+---
 
 ## Aula 1 - 07/10
 - O que é Bootstrap?
@@ -137,6 +143,8 @@
     Entenda mais sobre o display **grid** no guia abaixo:
     - [Guia CSS Grid Layout](https://www.origamid.com/projetos/css-grid-layout-guia-completo/)
 
+---
+
 ## Aula 2 - 08/10
 
 ### Começando o nosso projeto 
@@ -156,6 +164,8 @@
     - [ ] Seção - Habilidade e Sobre
     - [ ] Seção - Meus projetos
     - [ ] Footer
+
+---
 
 # Sass
 ## Aula 3 - 09/10
