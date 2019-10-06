@@ -21,7 +21,7 @@
 
     Existem várias redes **CDN**, e qualquer empresa pode contratar o serviço de uma para seu sistema, essa decisão normalmente é tomada levando em conta vários aspectos como ganhos de performance, segurança e custos.
 
-- Como instalar o Bootstrap no seu projeto?
+- Como instalar o Bootstrap via CDN no seu projeto?
 
     A instalação por **CDN** é a maneira mais rápida de instalar o Bootstrap no seu projeto, sem a necessidade de baixar os arquivos e adicioná-los no seu diretório. 
 
@@ -168,6 +168,54 @@
 ---
 
 # Sass
+## Documentação 
+[Documentação do Sass](http://www.sass-lang.com/documentation)
+
+---
+
+## Instalação
+### Instalação via npm
+
+Para instalarmos o **Sass** via **npm**, precisamos verificar se a nossa máquina possui o **node.js** instalado, é só rodar no seu terminal o comando `node -v`, se ele não apresentar a versão assim `v10.15.3` é só baixar ele [aqui!](https://nodejs.org/en/)
+
+- O que é npm?
+
+    [O que é npm? - Introdução básica para iniciantes](https://www.hostinger.com.br/tutoriais/o-que-e-npm)
+
+- Instalando o Sass
+
+    1. No terminal, entre no diretório do seu projeto e rode o comando `npm init` responda ao comando, logo após será gerado um arquivo `package.json`
+
+    ![instalando-sass-npm-init](/imagens/instalando-sass-npm-init.jpg)
+
+    2. Ainda no terminal instale o sass através do comando `npm install sass --save-dev`, será gerado um arquivo `package-lock.json` e uma pasta `./node_modules`
+
+    ![instalando-sass-npm-install](/imagens/instalando-sass-npm-install.jpg)
+
+    3. Crie um arquivo `.gitignore` junto aos arquivos `.json` com a seguinte linha de texto dentro:
+
+    ![instalando-sass-gitignore](/imagens/instalando-sass-gitignore.jpg)
+
+    4. Agora vamos estruturar as pastas da seguinte maneira: 
+
+    ![instalando-sass-estrutura-pastas](/imagens/instalando-sass-estrutura-pastas.jpg)
+
+    5. Vamos fazer um teste, dentro do arquivo `_base` adicionameremos uma propriedade `background-color: black` ao `<html>` e em seguida iremos importá-lo no arquivo `style.scss` assim: 
+
+    ![instalando-sass-import](/imagens/instalando-sass-import.jpg)
+
+    6. Vamos adicionar o script `"sass styles/style.scss styles/style.css"` no arquivo `package.json`
+
+    ![instalando-sass-script](/imagens/instalando-sass-script.jpg)
+
+    7. Agora é só rodar no terminal o comando `npm run sass` e ele irá compilar o arquivo gerando um arquivo `style.css`
+
+    ![instalando-sass-compiler](/imagens/instalando-sass-compiler.jpg)
+
+    8. Caso queira que o arquivo seja compilado de modo automático é só rodar o seguinte comando `sass --watch styles/style.scss styles/style.css`
+
+--- 
+
 ## Aula 3 - 09/10
 ## Aula 4 - 10/10
 
