@@ -1,14 +1,42 @@
-a:hover {
-    font-weight: 600;
-    color: white;
+a {
+    text-decoration: none;
+    color: black;
 }
 
-nav {
+a:hover {
+    color: #DEBBDD;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/* nav {
     background-color: #7E459B;
+} */
+
+.icones a:hover {
+    color: #7E459B;
+    text-decoration: none;
+}
+
+.icones i {
+    font-size: 1.6rem;
+    color: #7E459B; 
 }
 
 .imagem-carousel {
     object-fit: cover;
     object-position: 0 35%;
-    height: 70vh;
+    height: 62vh;
+}
+
+.redes-sociais p {
+    font-size: 1.2rem;
+}
+
+.bg-roxo {
+    background-color: #7E459B;
+}
+
+.rodape a {
+    color: rgb(213, 129, 255);
 }

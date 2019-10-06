@@ -16,7 +16,7 @@
 <body>
 
     <!-- nav -->
-    <nav class="navbar navbar-expand-lg navbar-dark align-items-center">
+    <nav class="navbar navbar-expand-lg navbar-dark align-items-center bg-roxo">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <h4 class="font-weight-normal">{re<span class="font-weight-light">programa</span>}</h4>
@@ -73,70 +73,78 @@
         </div>
 
         <!-- contato -->
-        <section>
-            <h1>Nome</h1>
-            <h2>Desenvolvedora front-end</h2>
-            <a href="" target="_blank">
-                <i class="fab fa-github-alt"></i>
-                <span>github.com/nome</span>
-            </a>
-            <a href="" target="_blank">
-                <i class="fab fa-linkedin"></i>
-                <p>linkedin.com/nome</span>
-            </a>
-            <a href="" target="_blank">
-                <i class="fas fa-envelope"></i>
-                <span>nome@gmail.com</span>
-            </a>
+        <section class="redes-sociais">
+            <div class="container text-center my-4">
+                <h3>Coloque seu nome aqui!</h3>
+                <p class="font-italic">Desenvolvedora front-end</p>
+                <div class="d-flex justify-content-around icones">
+                    <a href="" target="_blank" class="d-flex align-items-center"> 
+                        <i class="fab fa-github-alt mr-2"></i>
+                        <span>github.com/nome</span>
+                    </a>
+                    <a href="" target="_blank" class="d-flex align-items-center">
+                        <i class="fab fa-linkedin mr-2"></i>
+                        <span>linkedin.com/nome</span>
+                    </a>
+                    <a href="" target="_blank" class="d-flex align-items-center">
+                        <i class="fas fa-envelope mr-2"></i>
+                        <span>nome@gmail.com</span>
+                    </a>
+                </div>
+            </div>
         </section>
     </header> 
     
     <!-- seções - habilidades e sobre -->
-    <section>
-        <h3>Habilidades</h3>
-        <div>
-            <i class="fab fa-html5"></i>
-            <p>HTML</p>
+    <section class="bg-roxo">
+        <div class="container">
+            <h3>Habilidades</h3>
+            <div>
+                <i class="fab fa-html5"></i>
+                <p>HTML</p>
+            </div>
+            <div>
+                <i class="fab fa-css3-alt"></i>
+                <p>CSS</p>
+            </div>
+            <div>
+                <i class="fab fa-js"></i>
+                <p>JavaScript</p>
+            </div>
+            <div>
+                <i class="fab fa-sass"></i>
+                <p>Sass</p>
+            </div>
+            <div>
+                <i class="fas fa-book"></i>
+                <p>jQuery</p>
+            </div>
+            <div>
+                <i class="fab fa-react"></i>
+                <p>React</p>
+            </div>
+            <div>
+                <i class="fab fa-bootstrap"></i>
+                <p>Bootstrap</p>
+            </div>
+            <div>
+                <i class="fab fa-git-alt"></i>
+                <p>Git</p>
+            </div>
+            <div>
+                <i class="fas fa-tasks"></i>
+                <p>Scrum</p>
+            </div>
+        
+            <section>
+                <h3>Sobre</h3>
+                <p>Aluna do <span>bootcamp de front-end</span> da {reprograma}.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores reprehenderit facere ea aperiam modi magni
+                    asperiores? <span>Impedit qui saepe necessitatibus exercitationem </span> Impedit qui saepe necessitatibus
+                    exercitationem debitis perspiciatis ex. Porro ut iste.</p>
+                <p>Outras áreas de interesse: <span>metodologias ágeis, UX, Python, Clojure</span>.</p>
+            </section>
         </div>
-        <div>
-            <i class="fab fa-css3-alt"></i>
-            <p>CSS</p>
-        </div>
-        <div>
-            <i class="fab fa-js"></i>
-            <p>JavaScript</p>
-        </div>
-        <div>
-            <i class="fab fa-sass"></i>
-            <p>Sass</p>
-        </div>
-        <div>
-            <i class="fas fa-book"></i>
-            <p>jQuery</p>
-        </div>
-        <div>
-            <i class="fab fa-react"></i>
-            <p>React</p>
-        </div>
-        <div>
-            <i class="fab fa-bootstrap"></i>
-            <p>Bootstrap</p>
-        </div>
-        <div>
-            <i class="fab fa-git-alt"></i>
-            <p>Git</p>
-        </div>
-        <div>
-            <i class="fas fa-tasks"></i>
-            <p>Scrum</p>
-        </div>
-
-        <section>
-            <h3>Sobre</h3>
-            <p>Aluna do <span>bootcamp de front-end</span> da {reprograma}.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores reprehenderit facere ea aperiam modi magni asperiores? <span>Impedit qui saepe necessitatibus exercitationem </span> Impedit qui saepe necessitatibus exercitationem debitis perspiciatis ex. Porro ut iste.</p>
-            <p>Outras áreas de interesse: <span>metodologias ágeis, UX, Python, Clojure</span>.</p>
-        </section>
     </section>
 
     <!-- cards - meus projetos -->
@@ -150,9 +158,9 @@
     </section>
 
     <!-- footer -->
-    <footer>
-    <small>Desenvolvido com Bootstrap por Nome enquanto aluna da<span><a href="http://reprograma.com.br/index.html"
-        target="_blank">{reprograma}</a></span> 2019</small>
+    <footer class="bg-roxo text-white text-center rodape py-2">
+    <small>Desenvolvido com Bootstrap por Nome, enquanto aluna da<span><a href="http://reprograma.com.br/index.html"
+        target="_blank"> {reprograma}</a></span> 2019</small>
     </footer>
     
     <!-- adicionar jQuery aqui! -->
