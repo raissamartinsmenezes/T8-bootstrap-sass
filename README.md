@@ -1,9 +1,9 @@
 # T8-bootstrap-sass
 
-[AULA 01 - 08/10](#aula-1---0710) | 
+[AULA 01 - 07/10](#aula-1---0710) | 
 [AULA 02 - 08/10](#aula-2---0810) |
-[AULA 03 - 08/10](#aula-3---0910) |
-[AULA 04 - 08/10](#aula-4---1010) |
+[AULA 03 - 09/10](#aula-3---0910) |
+[AULA 04 - 10/10](#aula-4---1010) |
 
 # Bootstrap
 ## Documentação 
