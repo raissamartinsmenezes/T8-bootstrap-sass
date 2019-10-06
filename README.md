@@ -112,8 +112,13 @@
 
     ```
 
-    Entenda um pouco mais sobre os atributos **data-*** no artigo abaixo:
-    - [Tudo que você precisa saber sobre o atributo Data do HTML5 - ](https://webdesign.tutsplus.com/pt/tutorials/all-you-need-to-know-about-the-html5-data-attribute--webdesign-9642)
+    Entenda mais sobre os atributos **data-*** no artigo abaixo:
+    - [Tudo que você precisa saber sobre o atributo Data do HTML5](https://webdesign.tutsplus.com/pt/tutorials/all-you-need-to-know-about-the-html5-data-attribute--webdesign-9642)
+
+- display grid
+
+    Entenda mais sobre o display **grid** no guia abaixo:
+    - [Guia CSS Grid Layout](https://www.origamid.com/projetos/css-grid-layout-guia-completo/)
 
 ## Aula 2 - 08/10
 ### Começando o nosso projeto 
