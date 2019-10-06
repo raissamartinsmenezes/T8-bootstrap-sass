@@ -178,11 +178,9 @@
 
 Para instalarmos o **Sass** via **npm**, precisamos verificar se a nossa máquina possui o **node.js** instalado, é só rodar no seu terminal o comando `node -v`, se ele não apresentar a versão assim `v10.15.3` é só baixar ele [aqui!](https://nodejs.org/en/)
 
-- O que é npm?
+[O que é npm? - Introdução básica para iniciantes](https://www.hostinger.com.br/tutoriais/o-que-e-npm)
 
-    [O que é npm? - Introdução básica para iniciantes](https://www.hostinger.com.br/tutoriais/o-que-e-npm)
-
-- Instalando o Sass
+#### Instalando o Sass
 
     1. No terminal, entre no diretório do seu projeto e rode o comando `npm init` responda ao comando, logo após será gerado um arquivo `package.json`
 
