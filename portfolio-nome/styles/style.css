@@ -40,3 +40,7 @@ a:hover {
 .rodape a {
     color: rgb(213, 129, 255);
 }
+
+.habilidades i {
+    font-size: 2rem;
+}
