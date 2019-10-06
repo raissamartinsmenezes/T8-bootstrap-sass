@@ -112,6 +112,9 @@
 
     ```
 
+    Entenda um pouco mais sobre os atributos **data-*** no artigo abaixo:
+    - [Tudo que você precisa saber sobre o atributo Data do HTML5 - ](https://webdesign.tutsplus.com/pt/tutorials/all-you-need-to-know-about-the-html5-data-attribute--webdesign-9642)
+
 ## Aula 2 - 08/10
 ### Começando o nosso projeto 
 1. Clone o repositório
