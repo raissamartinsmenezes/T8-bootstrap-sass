@@ -167,7 +167,7 @@
 
 - Como ele vai ficar?
 
-![portfolio-nome](/imagens/portfolio-nome.jpg)
+![portfolio-nome](/imagens/portfolio-nome.png)
 
 ---
 
