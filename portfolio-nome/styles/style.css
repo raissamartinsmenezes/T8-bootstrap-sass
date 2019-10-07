@@ -57,7 +57,7 @@ a:hover {
 .imagem-cards {
     object-fit: cover;
     object-position: 0 0;
-    max-height: 40vh;
+    height: 40vh;
 }
 
 /* .bg-none {
