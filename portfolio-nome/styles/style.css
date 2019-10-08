@@ -79,3 +79,8 @@ a:hover {
 /* .border-card {
     box-shadow: 0px 1px 18px 0px rgba(126,69,155,1);
 } */
+
+.tamanho-card {
+    /* width: 18rem; */
+    max-width: 18rem;
+}
