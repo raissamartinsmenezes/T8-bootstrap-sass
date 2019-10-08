@@ -219,6 +219,9 @@ Para instalarmos o **Sass** via **npm**, precisamos verificar se a nossa máquin
 --- 
 
 ## Aula 3 - 09/10
+
+<!-- repositório da lydia -->
+
 ## Aula 4 - 10/10
 
 <!-- [link do layout 1](https://dribbble.com/shots/7158635-TheHub-Website-Exploration-01)

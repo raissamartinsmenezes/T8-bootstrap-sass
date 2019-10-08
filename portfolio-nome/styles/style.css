@@ -43,7 +43,10 @@ a:hover {
 
 .habilidades i {
     font-size: 2rem;
+    text-align: center;
 }
+
+
 
 .btn {
     background-color: #7E459B;
@@ -58,6 +61,10 @@ a:hover {
     object-fit: cover;
     object-position: 0 0;
     height: 40vh;
+}
+
+.position-center {
+    object-position: center;
 }
 
 /* .bg-none {
