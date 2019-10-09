@@ -249,51 +249,51 @@ Para instalarmos o **Sass** via **npm**, precisamos verificar se a nossa máquin
 
 - Partials
 
-![sass-partials](/imagens/imports-sass.png)
+![sass-partials](/imagens/imports-sass.PNG)
 
 - Imports
 
-![imports-sass](/imagens/imports-sass.png)
+![imports-sass](/imagens/imports-sass.PNG)
 
 - Aninhamento
 
-![navegacao--scss](/imagens/navegacao--scss.png)
+![navegacao--scss](/imagens/navegacao--scss.PNG)
 
-![navegacao--css](/imagens/navegacao--css.png)
+![navegacao--css](/imagens/navegacao--css.PNG)
 
 - Variáveis
 
-![vars--example](/imagens/vars--example.png)
+![vars--example](/imagens/vars--example.PNG)
 
-![vars--example-css](/imagens/vars--example-css.png)
+![vars--example-css](/imagens/vars--example-css.PNG)
 
 - Mixins | @includes
 
-![mixin--sem-parametros](/imagens/mixin--sem-parametros.png)
+![mixin--sem-parametros](/imagens/mixin--sem-parametros.PNG)
 
-![mixin--com-parametros-sem-valor-padrao](/imagens/mixin--com-parametros-sem-valor-padrao.png)
+![mixin--com-parametros-sem-valor-padrao](/imagens/mixin--com-parametros-sem-valor-padrao.PNG)
 
-![mixin--com-parametros-com-valor-padrao](/imagens/mixin--com-parametros-com-valor-padrao.png)
+![mixin--com-parametros-com-valor-padrao](/imagens/mixin--com-parametros-com-valor-padrao.PNG)
 
 - Placeholders | @extends
 
-![placeholder-height-display](/imagens/placeholder-height-display.png)
+![placeholder-height-display](/imagens/placeholder-height-display.PNG)
 
-![placeholdercall-height-display](/imagens/placeholdercall-height-display.png)
+![placeholdercall-height-display](/imagens/placeholdercall-height-display.PNG)
 
 - Mixin vs. Placeholders
 
-        ![mixin-height-display](/imagens/mixin-height-display.png)
+    ![mixin-height-display](/imagens/mixin-height-display.PNG)
 
-        ![mixincall-height-display](/imagens/mixincall-height-display.png)
+    ![mixincall-height-display](/imagens/mixincall-height-display.PNG)
 
     * Resultado Mixin
 
-        ![banner-destination-css](/imagens/banner-destination-css.png)
+    ![banner-destination-css](/imagens/banner-destination-css.PNG)
 
     * Resultado Placeholder
 
-        ![ideal-css](/imagens/ideal-css.png)
+    ![ideal-css](/imagens/ideal-css.PNG)
 
 - Funções de cores
 
@@ -302,7 +302,7 @@ Para instalarmos o **Sass** via **npm**, precisamos verificar se a nossa máquin
     
 - Funções com números
 
-    ![mixin-adapta](/imagens/mixin-adapta.png)
+    ![mixin-adapta](/imagens/mixin-adapta.PNG)
 
-    ![funcao-adapta](/imagens/funcao-adapta.png)
+    ![funcao-adapta](/imagens/funcao-adapta.PNG)
 
