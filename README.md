@@ -321,8 +321,8 @@ Para fazer com que os nossos partials sejam gerados no css é necessário import
 
 - Funções de cores
 
-    * darken($color, $amount) > darken(black, 20%)
-    * lighten($color, $amount) > darken(#829dad, 70%)
+    * `darken($color, $amount)` > `darken(black, 20%)`
+    * `lighten($color, $amount)` > `darken(#829dad, 70%)`
     
 - Funções com números
 
@@ -331,17 +331,21 @@ Para fazer com que os nossos partials sejam gerados no css é necessário import
     ![mixin-adapta](/imagens/mixin-adapta.PNG)
 
     Quando chamado no `.scss`:
+
     `@include adapta-tamanho(2);`
 
     Resultado no `.css`:
+
     `height: 32px;`
 
     ![funcao-adapta](/imagens/funcao-adapta.PNG)
 
     Quando chamada no `.scss`:
+
     `margin-top: adapta-tamanho(2);`
 
     Resultado no `.css`:
+    
     `margin-top: 32px;`
 
 
