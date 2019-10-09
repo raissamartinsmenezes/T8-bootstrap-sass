@@ -218,12 +218,91 @@ Para instalarmos o **Sass** via **npm**, precisamos verificar se a nossa máquin
 
 --- 
 
+## Conteúdo que vamos abordar :)
+
+- [ ] Imports
+- [ ] Partials
+- [ ] Aninhamento
+- [ ] Variáveis
+- [ ] Mixins e includes - com parâmetro
+- [ ] Mixins e includes - sem parâmetro
+- [ ] Placeholders e extends
+- [ ] Funções
+
 ## Aula 3 - 09/10
 
-<!-- repositório da lydia -->
+- Quais as vantagens de usar o Sass?
+
+    * Evitar duplicação de código
+    * Código Limpo
+    * Funcionalidades que o css não possui
+    * Manutenção
+
+### Começando o nossa experiência
+
+1. Faça o download deste repositório [reprograma/T8-bootstrap-preprocessadores](https://github.com/reprograma/T8-bnomeootstrap-preprocessadores)
+5. Entre no diretório `./pasta-do-projeto`, utilize o seu terminal através do comando `cd pasta-do-projeto`
+3. **Tenha a certeza de estar dentro da pasta** `./pasta-do-projeto`
+6. Agora vamos [instalar](#instalando) o Sass 
 
 ## Aula 4 - 10/10
 
-<!-- [link do layout 1](https://dribbble.com/shots/7158635-TheHub-Website-Exploration-01)
+- Partials
 
-[link do layout 2](https://dribbble.com/shots/3937735-Payment-Interaction) -->
+![sass-partials](/imagens/imports-sass.png)
+
+- Imports
+
+![imports-sass](/imagens/imports-sass.png)
+
+- Aninhamento
+
+![navegacao--scss](/imagens/navegacao--scss.png)
+
+![navegacao--css](/imagens/navegacao--css.png)
+
+- Variáveis
+
+![vars--example](/imagens/vars--example.png)
+
+![vars--example-css](/imagens/vars--example-css.png)
+
+- Mixins | @includes
+
+![mixin--sem-parametros](/imagens/mixin--sem-parametros.png)
+
+![mixin--com-parametros-sem-valor-padrao](/imagens/mixin--com-parametros-sem-valor-padrao.png)
+
+![mixin--com-parametros-com-valor-padrao](/imagens/mixin--com-parametros-com-valor-padrao.png)
+
+- Placeholders | @extends
+
+![placeholder-height-display](/imagens/placeholder-height-display.png)
+
+![placeholdercall-height-display](/imagens/placeholdercall-height-display.png)
+
+- Mixin vs. Placeholders
+
+        ![mixin-height-display](/imagens/mixin-height-display.png)
+
+        ![mixincall-height-display](/imagens/mixincall-height-display.png)
+
+    * Resultado Mixin
+
+        ![banner-destination-css](/imagens/banner-destination-css.png)
+
+    * Resultado Placeholder
+
+        ![ideal-css](/imagens/ideal-css.png)
+
+- Funções de cores
+
+    * darken($color, $amount) > darken(black, 20%)
+    * lighten($color, $amount) > darken(#829dad, 70%)
+    
+- Funções com números
+
+    ![mixin-adapta](/imagens/mixin-adapta.png)
+
+    ![funcao-adapta](/imagens/funcao-adapta.png)
+
