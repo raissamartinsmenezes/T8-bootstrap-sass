@@ -281,7 +281,7 @@ Para fazer com que os nossos partials sejam gerados no css é necessário import
 
 ![vars--example-css](/imagens/vars--example--css.PNG)
 
-- Mixins | @includes
+- Mixins | @include
 
     * sem parâmetros:
 
@@ -297,9 +297,9 @@ Para fazer com que os nossos partials sejam gerados no css é necessário import
 
 - Placeholders | @extends
 
-![placeholder-height-display](/imagens/placeholder-height-display.PNG)
+    ![placeholder-height-display](/imagens/placeholder-height-display.PNG)
 
-![placeholdercall-height-display](/imagens/placeholdercall-height-display.PNG)
+    ![placeholdercall-height-display](/imagens/placeholdercall-height-display.PNG)
 
 - Mixin vs. Placeholders
 
@@ -326,7 +326,24 @@ Para fazer com que os nossos partials sejam gerados no css é necessário import
     
 - Funções com números
 
+    Funções, diferente dos mixins, retornam valores, e não trechos de código.
+
     ![mixin-adapta](/imagens/mixin-adapta.PNG)
 
+    Quando chamado no `.scss`:
+    `@include adapta-tamanho(2);`
+
+    Resultado no `.css`:
+    `height: 32px;`
+
     ![funcao-adapta](/imagens/funcao-adapta.PNG)
+
+    Quando chamada no `.scss`:
+    `margin-top: adapta-tamanho(2);`
+
+    Resultado no `.css`:
+    `margin-top: 32px;`
+
+
+
 
