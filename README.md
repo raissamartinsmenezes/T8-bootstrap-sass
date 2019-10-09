@@ -249,31 +249,51 @@ Para instalarmos o **Sass** via **npm**, precisamos verificar se a nossa máquin
 
 - Partials
 
-![sass-partials](/imagens/imports-sass.PNG)
+Para modularizar nosso código e deixar mais fácil de configurar, conseguimos separar em arquivos chamados **partials**, que são pedaços de css separados em arquivos e que recebem um **_** no começo do nome, para que o Sass entenda que não deve gerar o código no css, só quando chamarmos por **@import**.
+
+![sass-partials](/imagens/sass-partials.PNG)
 
 - Imports
+
+Para fazer com que os nossos partials sejam gerados no css é necessário importá-los no arquivo **.scss** principal.
+
+**Lembrando que a ordem que a gente chama os @imports é a ordem que será gerado no css.**
 
 ![imports-sass](/imagens/imports-sass.PNG)
 
 - Aninhamento
 
+`.scss`
+
 ![navegacao--scss](/imagens/navegacao--scss.PNG)
+
+`.css`
 
 ![navegacao--css](/imagens/navegacao--css.PNG)
 
 - Variáveis
 
+`.scss`
+
 ![vars--example](/imagens/vars--example.PNG)
 
-![vars--example-css](/imagens/vars--example-css.PNG)
+`.css`
+
+![vars--example-css](/imagens/vars--example--css.PNG)
 
 - Mixins | @includes
 
-![mixin--sem-parametros](/imagens/mixin--sem-parametros.PNG)
+    * sem parâmetros:
 
-![mixin--com-parametros-sem-valor-padrao](/imagens/mixin--com-parametros-sem-valor-padrao.PNG)
+    ![mixin--sem-parametros](/imagens/mixin--sem-parametros.PNG)
 
-![mixin--com-parametros-com-valor-padrao](/imagens/mixin--com-parametros-com-valor-padrao.PNG)
+    * com parâmetros: 
+
+    ![mixin--com-parametros-sem-valor-padrao](/imagens/mixin--com-parametros-sem-valor-padrao.PNG)
+
+    * com parâmetros e valor padrão: 
+
+    ![mixin--com-parametros-com-valor-padrao](/imagens/mixin--com-parametros-com-valor-padrao.PNG) 
 
 - Placeholders | @extends
 
@@ -282,6 +302,8 @@ Para instalarmos o **Sass** via **npm**, precisamos verificar se a nossa máquin
 ![placeholdercall-height-display](/imagens/placeholdercall-height-display.PNG)
 
 - Mixin vs. Placeholders
+
+    Assim como o **mixin**, os **placeholders** também são trechos de código que podemos reutilizar, mas se ele faz a mesma coisa que o mixin, por que utilizarmos?
 
     ![mixin-height-display](/imagens/mixin-height-display.PNG)
 
@@ -294,6 +316,8 @@ Para instalarmos o **Sass** via **npm**, precisamos verificar se a nossa máquin
     * Resultado Placeholder
 
     ![ideal-css](/imagens/ideal-css.PNG)
+
+    **Não podemos criar placeholders com parâmetros, como fazemos com os mixins.**
 
 - Funções de cores
 
